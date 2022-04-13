@@ -1,0 +1,584 @@
+/*
+body{
+  background:
+  color:white
+}
+
+
+.navbar{
+  border-bottom: 3px solid #096DD6;
+  background:#2C2E2F;
+  opacity: 0.8;
+}
+.section{
+  background:url(../img/create.jpeg) no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+  
+}
+.dark-overly{
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 700px;
+  padding: 127px 0px;
+
+}
+.home-inner {
+
+}
+.fa {
+    background: white;
+    color: blue;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 9px;
+}
+.cardopacity {
+  opacity: 0.8;
+}
+.bg{
+  background: #333;
+}
+.bg-fa {
+    background: black;
+    font-size: 15px;
+    color: white;
+    padding: ;
+    border-radius: 10px;
+    
+    
+}
+.caroimg{
+  width: 100%;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar  navbar-dark navbar-expand-md fixed-top">
+<div class="container">
+  <a class="navbar-brand" href="#">AZIZUR.R</a>
+  <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navtoggle"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navtoggle">
+    <ul  class="navbar-nav mx-auto">
+      <li class="nav-item"><a class="nav-link" href="#home-section">HOME</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Explore-section">EXPLORE</a></li>
+      <li class="nav-item"><a class="nav-link" href="#create-hsection">CREATE</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Share-hsection">SHARE</a></li>
+    </ul>
+    <form action="" class="form-inline">
+      <input type="search" placeholder="search..." class="form-control">
+      <button class="btn btn-primary">search</button>
+    </form>
+  </div>
+</div> 
+</nav>
+
+
+
+
+
+<!-- start section -->
+
+
+<section class="section" id="home-section">
+<div class="dark-overly">
+  <div class="home-inner">
+    <div class="container">
+    <div class="row">
+      <div class=" col-md-12 col-lg-8 d-none d-sm-block">
+        <h1 class="display-4">Build <b>social profiles</b>  and gain revenue and <b>profits</b></h1>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-star mt-1">
+            <i class="fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-star mt-1">
+            <i class="fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-star mt-1">
+            <i class="fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?</p>
+          </div>
+        </div>
+      </div>
+      <div class=" col-md-12 col-lg-4">
+        <div class=" cardopacity card bg-primary text-center">
+          <div class="card-body">
+            <h3>Sign Up Today</h3>
+            <p>Please fill out this form to register</p>
+            <form>
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Username" name="Username">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="Email" placeholder="Email" name="Email">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="password" name="password">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Confirm password" name="pass2">
+              </div>
+            <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- START EXPLORE head section-->
+
+<section id="Explore-section" class="bg py-5">
+<div class="container">
+<div class="row">
+  <div class=" text-center col-md-12">
+    <h2>Explore Section here</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores! Dicta, voluptatum molestiae.</p>
+    <a href="#" class="btn btn-outline-light">Find Out More</a>
+  </div>
+</div>
+</div>
+</section>
+<!-- START EXPLORE main section-->
+<section class="text-dark py-5" id="Explore-main-section">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+      <img src="img/explore.jpeg" class="img-fluid rounded my-2" alt="explore">
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <h3>Explore Learn & Connect</h3>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquam sed cum, sunt, quia dicta? Animi, commodi, neque incidunt non atque aliquid voluptates nostrum, inventore tenetur asperiores a necessitatibus ut.</p>
+      <div class="d-flex flex-row ">
+        <div class=" mt-4 bg-fa p-2 align-self-start">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class=" p-4 align-self-end">
+          <p class="lead">Text check .......Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque?</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row ">
+        <div class=" mt-4 bg-fa p-2 align-self-start">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class=" p-4 align-self-end">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- CREATE HEAD SECTION-->
+<div id="create-hsection" class="bg-primary text-center py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="display-4">Create Section</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores! Dicta, voluptatum molestiae.</p>
+      <a href="#" class="btn btn-outline-light">Find Out More</a>
+    </div>
+  </div>
+</div>
+</div>
+<!--CREATE MAIN SECTION-->
+<div id="crate-msection" class="bg-dark py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+      <h2>Create Your Passion</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquam sed cum, sunt, quia dicta? Animi, commodi, neque incidunt non atque aliquid voluptates nostrum, inventore tenetur asperiores a necessitatibus ut.</p>
+      <div class="d-flex flex-row">
+        <div class="align-self-start mt-2 p-4 ">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="align-self-end">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque? </p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="align-self-start mt-2 p-4 ">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="align-self-end">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque? </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6 ">
+      <div>
+        <img src="img/create.jpeg" alt="img">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Share HEAD SECTION-->
+<div id="Share-hsection" class="bg-primary text-center py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="display-4">Share Section</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nulla ducimus veniam repellat nostrum, placeat aperiam maiores! Dicta, voluptatum molestiae.</p>
+      <a href="#" class="btn btn-outline-light">Find Out More</a>
+    </div>
+  </div>
+</div>
+</div>
+<!--Share MAIN SECTION-->
+<div id="Share-msection" class="bg-light text-dark py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 ">
+      <div>
+        <img src="img/share.jpeg" alt="img">
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <h2>Create Your Passion</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aliquam sed cum, sunt, quia dicta? Animi, commodi, neque incidunt non atque aliquid voluptates nostrum, inventore tenetur asperiores a necessitatibus ut.</p>
+      <div class="d-flex flex-row">
+        <div class="align-self-start mt-2 p-4 ">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="align-self-end">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque? </p>
+        </div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="align-self-start mt-2 p-4 ">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="align-self-end">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque? </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--footer section start-->
+<div id="footer-section" class="bg-dark py-5 text-center">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="display-4">LoopLAB</h2>
+      <p  class="lead">Copyright &copy; 2018</p>
+      <p>Designed By: <a class="font-weight-bold" href="#">Azizur Rahman</a></p>
+
+      <button class="btn btn-outline-info" data-toggle="modal" data-target="#ctm">Contact Us</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--Contact Modal start-->
+<div class="modal" id="ctm">
+<div class="container">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h2 class="modal-title">Contact Us</h2>
+        <button class="close bg-light" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" name="name" rows="4" cols="80">Write something about your life...</textarea>
+        </div>
+        <input class="btn btn-outline-primary" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  <span class="sr-only">Close</span>
+</button>
+<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+</div>
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-center">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</nav>
+
+*/
+.bg-header{
+  background:#2e2ebad1;
+}
+.logoarea img{
+  max-width: 198px;
+  margin-top: 21px;
+}
+.linierbg {
+	background: linear-gradient(#fff,#dedede);
+}
+.extra{
+  margin-top: 31
+}
+.bigimg {
+	width: 539px;
+	height: 266px;
+}
+.footer{
+  
+}
+.footermenu{
+  margin:0px;
+  padding: 0px;
+  margin-top: 6px;
+  overflow: hidden;
+  margin: auto;
+  text-align: left;
+  text-transform: capitalize;
+  
+}
+.footermenu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.footermenu li a{
+  font-size: 14px;
+  padding: 3px 6px;
+  display:block;
+}
+.footermenu li a:hover{}
+
+.footertop{
+  border-bottom: 2px solid #ddd;
+}
+.plusicon{
+  font-weight: 900;
+  border: 1px solid ;
+  padding: 10px 10px;
+  margin-top: 3px;
+}
+.footermiddle{
+  margin-bottom: 0px;
+}
+
+.footerbottom{
+  text-align: center;
+}
+
+
+
+
+.btninner{
+  padding: 15px 40px;
+  position: relative;
+  z-index: 1;
+}
+.btninner::before{
+  content: "";
+  position:absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left:0;
+  background-color:rgba(93, 243, 24, 0.788);
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+.btninner:hover::before{
+  width:50%;
+}
+
+.btninner::after{
+  content: "";
+  position:absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color:rgb(8, 243, 28);
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+.btninner:hover::after{
+  width:50%;
+}
+.hello{
+  margin-left: 330px;
+  list-style: none;
+  position: relative;
+ 
+}
+.hello li::before{
+  content: "*";
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  
+
+}
+
+.main{
+  
+}
+.playbtn {
+	font-size: 71px;
+	color: rgb(255, 255, 255);
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: rgb(9, 255, 0);
+	border-radius: 50%;
+	display: inline-block;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+.playbtn:hover{
+  color: white;
+  background-color: red;
+}
+.playbtn::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgb(9, 255, 0);
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  animation-name: aziz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes aziz {
+  0%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.5);
+    opacity: 0.5;
+    background-color: rgb(255, 42, 4);
+  }
+  100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.mainicon {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(53, 253, 13);
+	font-size: 67px;
+	line-height: 100px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+  transition: all 0.4s ease;
+  position: relative;
+  color: white;
+}
+
+.mainicon::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #3aeb49;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+	animation-name: alu;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes alu{
+  0%{
+    transform: scale(0);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+  
+  100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.mainicon:hover{
+  background-color: tomato;
+  color: white;
+ }
+
+
+
+
+ .timeinner{}
+ .timeinner ul{}
+ .timeinner ul li{}
